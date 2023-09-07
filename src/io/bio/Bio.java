@@ -118,14 +118,14 @@ public class Bio {
 		int hash = 0;
 		int weight = 1;
 		char[] characters = string.toCharArray();
-
+		
 		for(int i = characters.length - 1; i >= 0; i--) {
 			char character = characters[i];
-
+			
 			hash += character * weight;
 			weight *= 31;
 		}
-
+		
 		return hash;
 	}
 	
