@@ -74,7 +74,7 @@ public class Bio {
 				characters[characterIndex] = character;
 				
 				if(s == seed) {
-
+					
 					seedMatches = true;
 					break;
 				}
