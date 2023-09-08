@@ -2,14 +2,14 @@ package io.bio;
 
 public class Bio {
 	
-	private static final char SMALLEST_SEED_STRING_CHARACTER_ID = 33;
-	private static final char LARGEST_SEED_STRING_CHARACTER_ID = 126;
-	
 	private static final char EMPTY_SEED_STRING_SEED = 0;
-	private static final char MINIMAL_SEED_STRING_LENGTH = 1;
-	private static final char DEFAULT_SEED_STRING_CHARACTER = 'O';
 	private static final char SEED_STRING_CHARACTER_WEIGHT_FACTOR = 31;
 	private static final char LAST_SEED_STRING_CHARACTER_WEIGHT = 1;
+	
+	private static final char MINIMAL_SEED_STRING_LENGTH = 1;
+	private static final char SMALLEST_SEED_STRING_CHARACTER_ID = 33;
+	private static final char LARGEST_SEED_STRING_CHARACTER_ID = 126;
+	private static final char DEFAULT_SEED_STRING_CHARACTER = 'O';
 	
 	public static String simplifySeedString(String seedString) {
 		int seed = seed(seedString);
